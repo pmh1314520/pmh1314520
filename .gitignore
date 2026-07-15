@@ -1,0 +1,13 @@
+# Kiro spec 文档（本地开发用，不推送）
+.kiro/
+
+# hypothesis 属性测试缓存
+.hypothesis/
+
+# Python 校验脚本套件（本地校验用，不推送）
+scripts/
+
+# Python 运行缓存
+__pycache__/
+*.pyc
+.pytest_cache/

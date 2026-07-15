@@ -1,0 +1,35 @@
+name: Refresh Dynamic Assets
+
+on:
+  schedule:
+    - cron: "30 2 * * *"        # 每日 UTC 02:30 运行一次（每 24h，满足需求 7.3/9.1）
+  workflow_dispatch:             # 支持手动触发
+  push:
+    branches: [main]             # 便于首次/改动后立即生成
+
+concurrency:
+  group: refresh-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Generate snake svg (dark + light)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: pmh1314520
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch (only if changed)
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
