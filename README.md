@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 ================================================================================
   Profile README · pmh1314520（青云制作_彭明航）
   骨架文件 —— 8 个主要区块以成对注释标记界定，内部内容由后续任务逐块填充。
@@ -161,16 +161,16 @@
 <h4 align="center">📈 通用统计 · Overall Stats</h4>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
-    <img alt="pmh1314520 的 GitHub 通用统计卡片：展示 Star 总数、提交数、Follower 数与贡献数" src="https://github-readme-stats.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=FFFFFF&title_color=7C3AED&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
+    <img alt="pmh1314520 的 GitHub 通用统计卡片：展示 Star 总数、提交数、Follower 数与贡献数" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=FFFFFF&title_color=7C3AED&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
   </picture>
 </div>
 
 <h4 align="center">🗣️ 常用语言 · Most Used Languages</h4>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
-    <img alt="pmh1314520 的常用编程语言占比卡片：展示占比最高的前若干种语言及其百分比" src="https://github-readme-stats.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=7C3AED&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
+    <img alt="pmh1314520 的常用编程语言占比卡片：展示占比最高的前若干种语言及其百分比" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=7C3AED&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
   </picture>
 </div>
 
