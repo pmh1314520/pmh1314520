@@ -448,7 +448,7 @@
   每个徽章 = shields.io badge（style=for-the-badge，含平台 Logo logo=、平台名称文字标签、非空 alt）。
   - 个人网站 → https://www.pmhs.top（含协议前缀绝对 URL，需求 6.1），主色天蓝 38BDF8。
   - Bilibili  → https://space.bilibili.com/1102546347（需求 6.2），官方品牌粉 FB7299。
-  邮箱徽章：无可公开的有效联系邮箱（全局配置未声明 EMAIL），属缺失链接目标，按需求 6.6 直接不写入。
+  邮箱徽章：pmh13182190482@yeah.net，使用 mailto: 链接目标 + 邮箱图标 + 地址文本标签（满足需求 6.5）。
   markdown 徽章置于 <div align="center"> 内，前后留空行以确保 GitHub 正常渲染 Markdown 语法。
 -->
 <div align="center">
@@ -457,6 +457,7 @@
 [![Bilibili 主页 哔哩哔哩](https://img.shields.io/badge/Bilibili-哔哩哔哩-FB7299?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/1102546347)
 [![Gitee 主页 码云](https://img.shields.io/badge/Gitee-码云-C71D23?style=for-the-badge&logo=gitee&logoColor=white)](https://gitee.com/peng-minghang)
 [![爱发电 主页 Afdian](https://img.shields.io/badge/爱发电-Afdian-2DD4BF?style=for-the-badge&logo=afdian&logoColor=white)](https://ifdian.net/a/qypmh)
+[![邮箱 Email pmh13182190482@yeah.net](https://img.shields.io/badge/邮箱_Email-pmh13182190482@yeah.net-0891B2?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:pmh13182190482@yeah.net)
 
 </div>
 
