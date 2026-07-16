@@ -128,7 +128,7 @@
   技能图标墙：skillicons.dev 一张 SVG 渲染整齐的技术图标网格，作为技术栈的视觉总览；下方为详细分类徽章。
 -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,java,kotlin,c,cpp,cs,ts,js,rust,go,vue,react,vite,tailwind,threejs,html,css,flutter,electron,tauri,nodejs,bun,fastapi,spring,dotnet,qt,mysql,postgres,mongodb,sqlite,redis,nginx,docker,kubernetes,linux,prometheus,grafana,unity,godot,unreal,ps,pr,git,github,vscode,pycharm,goland,visualstudio,windows&perline=13" alt="技能图标墙：常用编程语言、框架、数据库、云原生、游戏与工具技术图标总览" />
+  <img src="https://skillicons.dev/icons?i=py,java,kotlin,c,cpp,cs,ts,js,rust,go,vue,react,vite,tailwind,threejs,html,css,flutter,electron,tauri,nodejs,bun,fastapi,spring,dotnet,qt,mysql,postgres,mongodb,sqlite,redis,nginx,docker,kubernetes,linux,prometheus,grafana,unity,godot,unreal,ps,pr,git,github,vscode,pycharm,visualstudio,windows&perline=13" alt="技能图标墙：常用编程语言、框架、数据库、云原生、游戏与工具技术图标总览（GoLand 见下方分类徽章）" />
 </div>
 
 <!--
