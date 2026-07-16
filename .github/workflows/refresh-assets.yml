@@ -92,6 +92,18 @@ jobs:
             ("保持好奇，持续创造", "Stay curious, keep creating."),
             ("简单是可靠的前提", "Simplicity is the prerequisite for reliability."),
             ("每天进步一点点", "A little progress every single day."),
+            ("过早优化是万恶之源", "Premature optimization is the root of all evil."),
+            ("能用简单方案解决的，就别用复杂的", "Prefer the simplest solution that works."),
+            ("先完成，再完美", "Done is better than perfect."),
+            ("读源码是最好的老师", "Reading source code is the best teacher."),
+            ("重构是持续偿还技术债", "Refactoring is paying down technical debt."),
+            ("测试给你重构的勇气", "Tests give you the courage to refactor."),
+            ("慢即是稳，稳即是快", "Slow is smooth, and smooth is fast."),
+            ("解决问题前，先定义问题", "Define the problem before you solve it."),
+            ("代码讲怎么做，注释讲为什么", "Code says how; comments say why."),
+            ("站在巨人的肩膀上", "Stand on the shoulders of giants."),
+            ("把每次提交都当作作品", "Treat every commit as a piece of craft."),
+            ("知其然，更要知其所以然", "Know not just how, but also why."),
           ]
           idx = date.today().timetuple().tm_yday % len(quotes)
           cn, en = quotes[idx]
