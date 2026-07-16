@@ -1,4 +1,4 @@
-name: Refresh Dynamic Assets
+﻿name: Refresh Dynamic Assets
 
 on:
   schedule:
@@ -45,21 +45,21 @@ jobs:
           svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="440" height="96" viewBox="0 0 440 96" role="img" aria-label="Age">
             <style>
               .card {{ fill: #FFFFFF; stroke: #D0D7DE; }}
-              .big  {{ fill: #7C3AED; font: 700 22px 'Segoe UI','PingFang SC',sans-serif; }}
+              .big  {{ fill: #0284C7; font: 700 22px 'Segoe UI','PingFang SC',sans-serif; }}
               .sub  {{ fill: #1F2328; font: 600 14px 'Segoe UI','PingFang SC',sans-serif; }}
               .en   {{ fill: #6E7781; font: 500 11px 'Segoe UI',sans-serif; }}
               @media (prefers-color-scheme: dark) {{
                 .card {{ fill: #0D1117; stroke: #30363D; }}
-                .big  {{ fill: #8B5CF6; }}
+                .big  {{ fill: #38BDF8; }}
                 .sub  {{ fill: #C9D1D9; }}
                 .en   {{ fill: #8B949E; }}
               }}
             </style>
             <defs>
               <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0" stop-color="#8B5CF6"/>
+                <stop offset="0" stop-color="#38BDF8"/>
                 <stop offset="0.5" stop-color="#22D3EE"/>
-                <stop offset="1" stop-color="#F472B6"/>
+                <stop offset="1" stop-color="#2DD4BF"/>
               </linearGradient>
             </defs>
             <rect class="card" x="1" y="1" width="438" height="94" rx="14" stroke-width="1.5"/>
@@ -102,7 +102,7 @@ jobs:
               .e { fill:#6E7781; font:italic 12px 'Segoe UI',sans-serif; }
               @media (prefers-color-scheme: dark) { .c{fill:#0D1117;stroke:#30363D;} .q{fill:#C9D1D9;} .e{fill:#8B949E;} }
             </style>
-            <defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+            <defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
             <rect class="c" x="1" y="1" width="758" height="70" rx="12" stroke-width="1.5"/>
             <rect x="1" y="1" width="6" height="70" rx="3" fill="url(#b)"/>
             <text x="30" y="32" class="q">%(cn)s</text>
@@ -141,12 +141,12 @@ jobs:
           tmpl = '''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="120" viewBox="0 0 760 120" role="img" aria-label="stats dashboard">
             <style>
               .c { fill:#FFFFFF; stroke:#D0D7DE; }
-              .num { fill:#7C3AED; font:800 30px 'Segoe UI',sans-serif; }
+              .num { fill:#0284C7; font:800 30px 'Segoe UI',sans-serif; }
               .lab { fill:#1F2328; font:600 13px 'Segoe UI',sans-serif; letter-spacing:1px; }
               .sep { stroke:#D0D7DE; stroke-width:1; }
-              @media (prefers-color-scheme: dark) { .c{fill:#0D1117;stroke:#30363D;} .num{fill:#8B5CF6;} .lab{fill:#C9D1D9;} .sep{stroke:#30363D;} }
+              @media (prefers-color-scheme: dark) { .c{fill:#0D1117;stroke:#30363D;} .num{fill:#38BDF8;} .lab{fill:#C9D1D9;} .sep{stroke:#30363D;} }
             </style>
-            <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient></defs>
+            <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient></defs>
             <rect class="c" x="1" y="1" width="758" height="118" rx="14" stroke-width="1.5"/>
             <rect x="1" y="1" width="758" height="5" rx="2.5" fill="url(#bar)"/>
             %(cells)s

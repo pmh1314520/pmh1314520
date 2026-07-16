@@ -1,12 +1,12 @@
 ﻿<!--
 ================================================================================
   Profile README · pmh1314520（青云制作_彭明航）
-  骨架文件 —— 8 个主要区块以成对注释标记界定，内部内容由后续任务逐块填充。
+  10 个主要区块以成对注释标记界定（TYPING_BANNER / ABOUT_ME / HONORS / TECH_STACK / STATS / PROJECTS / SOCIAL / SPONSOR / VISITOR_SNAKE / FOOTER）。
 --------------------------------------------------------------------------------
   全局配色常量（后续所有区块统一取色依据；≤4 主色，不引入方案外额外主色）
-  PRIMARY_VIOLET = #8B5CF6   主强调（卡片标题色 / 区块标题装饰 / 主徽章底色）
+  PRIMARY_SKY = #38BDF8   天蓝主强调（卡片标题色 / 区块标题装饰 / 主徽章底色）
   ACCENT_CYAN    = #22D3EE   次强调（打字横幅文字 / 图标色 / 访客计数徽章）
-  ACCENT_PINK    = #F472B6   点缀高亮（关键徽章 / 分隔装饰渐变收尾）
+  ACCENT_MINT    = #2DD4BF   薄荷点缀（关键徽章 / 分隔装饰渐变收尾）
   BASE_INK       = 深色态 #C9D1D9 / 浅色态 #1F2328   中性正文文字（随主题切换）
 
   深色主题面：bg=#0D1117  border=#30363D  text=#C9D1D9
@@ -27,7 +27,7 @@
   【重要】中文必须做 URL 百分号编码，否则 GitHub 图片代理(camo)取不到图导致横幅空白。
 -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:22D3EE,100:F472B6&height=170&section=header" alt="顶部青紫粉渐变波浪装饰" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=170&section=header" alt="顶部天蓝到薄荷渐变波浪装饰" />
   <br />
   <img
     src="https://readme-typing-svg.demolab.com/?font=Ma+Shan+Zheng&size=36&duration=3500&pause=800&center=true&vCenter=true&width=680&height=100&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;A%20Student%20Obsessed%20With%20Computer%20Tech;%E5%AD%A6%E4%BB%A5%E8%87%B4%E7%94%A8%E6%89%8D%E6%98%AF%E7%8E%8B%E9%81%93;Learn%20By%20Doing%2C%20Master%20By%20Using"
@@ -42,7 +42,7 @@
 <!-- SECTION:ABOUT_ME:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/user-male-circle.png" alt="关于我图标" />&nbsp; 关于我 · About Me</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <h1 align="center">青云制作_彭明航 <sub>(he/him)</sub></h1>
@@ -83,10 +83,38 @@
 
 <!-- SECTION:ABOUT_ME:END -->
 
+<!-- SECTION:HONORS:START -->
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/prize.png" alt="荣誉图标" />&nbsp; 荣誉 &amp; 身份 · Honors &amp; Identities</h2>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
+</div>
+
+<!--
+  荣誉 & 身份：以中英双语 shields 徽章展示跨界身份与荣誉，突显技术面之广。
+  非 TECH_STACK/SOCIAL 区块，故不受 Property 7/8/11 约束；每个徽章 alt 非空（Property 3）。
+  国家奖学金用金色强调，其余用天蓝/青/薄荷主题色，尽量带官方 logo（无则纯色文字）。
+-->
+<p align="center">技术面广、跨界多元：从开源工具到游戏、音乐与数据可视化<br /><i>A broad, cross-disciplinary maker — from open-source tools to games, music &amp; data-viz</i></p>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/国家奖学金-National_Scholarship-FBBF24?style=for-the-badge&logo=googlescholar&logoColor=white" alt="国家奖学金获得者 · National Scholarship Winner" />
+  <img src="https://img.shields.io/badge/独立游戏开发者-Indie_Game_Dev-38BDF8?style=for-the-badge&logo=itchdotio&logoColor=white" alt="独立游戏开发者 · Indie Game Developer" />
+  <img src="https://img.shields.io/badge/竹翼工作室·MC模组-Minecraft_NetEase_Mod-2DD4BF?style=for-the-badge&logo=minecraft&logoColor=white" alt="竹翼工作室 我的世界网易版模组开发者 · Minecraft (NetEase) Mod Developer @竹翼工作室" />
+  <br />
+  <img src="https://img.shields.io/badge/微信小程序-WeChat_Mini_Program-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信小程序开发者 · WeChat Mini Program Developer" />
+  <img src="https://img.shields.io/badge/数据可视化大屏-Data_Viz_Dashboards-22D3EE?style=for-the-badge&logo=apacheecharts&logoColor=white" alt="数据可视化大屏开发者 · Data Visualization Dashboards Developer" />
+  <img src="https://img.shields.io/badge/4399小游戏开发者-4399_Game_Dev-38BDF8?style=for-the-badge&logo=gamejolt&logoColor=white" alt="4399 小游戏开发者 · 4399 Mini-Game Developer" />
+  <br />
+  <img src="https://img.shields.io/badge/腾讯音乐人-Tencent_Musician-0891B2?style=for-the-badge&logo=tencentqq&logoColor=white" alt="腾讯音乐人 · Tencent Musician" />
+  <img src="https://img.shields.io/badge/网易云音乐人-NetEase_Cloud_Musician-C20C0C?style=for-the-badge&logo=neteasecloudmusic&logoColor=white" alt="网易云音乐人 · NetEase Cloud Musician" />
+</div>
+
+<!-- SECTION:HONORS:END -->
+
 <!-- SECTION:TECH_STACK:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/source-code.png" alt="技术栈图标" />&nbsp; 技术栈 · Tech Stack</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
@@ -177,7 +205,7 @@
   <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="Photoshop" />
   <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white" alt="Premiere Pro" />
   <img src="https://img.shields.io/badge/OBS_Studio-302E31?style=for-the-badge&logo=obsstudio&logoColor=white" alt="OBS Studio" />
-  <img src="https://img.shields.io/badge/NetEase_ModSDK-8B5CF6?style=for-the-badge" alt="NetEase ModSDK" />
+  <img src="https://img.shields.io/badge/NetEase_ModSDK-38BDF8?style=for-the-badge" alt="NetEase ModSDK" />
 </p>
 
 <h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/maintenance.png" alt="工具平台图标" />&nbsp; 工具 &amp; 平台 · Tools &amp; Platforms</h4>
@@ -197,7 +225,7 @@
 <!-- SECTION:STATS:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="数据统计图标" />&nbsp; GitHub 数据 · GitHub Stats</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
@@ -211,32 +239,32 @@
 <!--
   三张统计卡片，均用 <picture> + <source media="(prefers-color-scheme: dark)"> + 浅色 <img> 回退实现深/浅主题切换。
   三卡配色参数取值完全一致且等于全局主题声明色值（Property 9）：
-    深色 bg=0D1117 title=8B5CF6 text=C9D1D9 icon=22D3EE border=30363D
-    浅色 bg=FFFFFF title=7C3AED text=1F2328 icon=0891B2 border=D0D7DE
+    深色 bg=0D1117 title=38BDF8 text=C9D1D9 icon=22D3EE border=30363D
+    浅色 bg=FFFFFF title=0284C7 text=1F2328 icon=0891B2 border=D0D7DE
   streak-stats 参数名不同（background/ring/fire/currStreakLabel/sideLabels/dates/stroke 等），但色值取相同值。
 -->
 
 <h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="通用统计图标" />&nbsp; 通用统计 · Overall Stats</h4>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
-    <img alt="pmh1314520 的 GitHub 通用统计卡片：展示 Star 总数、提交数、Follower 数与贡献数" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=FFFFFF&title_color=7C3AED&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
+    <img alt="pmh1314520 的 GitHub 通用统计卡片：展示 Star 总数、提交数、Follower 数与贡献数" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=FFFFFF&title_color=0284C7&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
   </picture>
 </div>
 
 <h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/chat.png" alt="常用语言图标" />&nbsp; 常用语言 · Most Used Languages</h4>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
-    <img alt="pmh1314520 的常用编程语言占比卡片：展示占比最高的前若干种语言及其百分比" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=7C3AED&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
+    <img alt="pmh1314520 的常用编程语言占比卡片：展示占比最高的前若干种语言及其百分比" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=0284C7&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
   </picture>
 </div>
 
 <h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/light-on.png" alt="连续贡献图标" />&nbsp; 连续贡献 · Contribution Streak</h4>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=pmh1314520&background=0D1117&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&stroke=30363D" />
-    <img alt="pmh1314520 的连续贡献天数卡片：展示当前连续贡献天数与历史最长连续贡献天数" src="https://streak-stats.demolab.com/?user=pmh1314520&background=FFFFFF&ring=7C3AED&fire=0891B2&currStreakLabel=7C3AED&currStreakNum=1F2328&sideLabels=1F2328&sideNums=1F2328&dates=1F2328&stroke=D0D7DE" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=pmh1314520&background=0D1117&ring=38BDF8&fire=22D3EE&currStreakLabel=38BDF8&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&stroke=30363D" />
+    <img alt="pmh1314520 的连续贡献天数卡片：展示当前连续贡献天数与历史最长连续贡献天数" src="https://streak-stats.demolab.com/?user=pmh1314520&background=FFFFFF&ring=0284C7&fire=0891B2&currStreakLabel=0284C7&currStreakNum=1F2328&sideLabels=1F2328&sideNums=1F2328&dates=1F2328&stroke=D0D7DE" />
   </picture>
 </div>
 
@@ -245,7 +273,7 @@
 <!-- SECTION:PROJECTS:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/rocket.png" alt="项目图标" />&nbsp; 代表项目 · Featured Projects</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
@@ -268,7 +296,7 @@
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="主要语言 Python" />
       <br />
       <a href="https://github.com/pmh1314520/WebRPA">
-        <img src="https://img.shields.io/github/stars/pmh1314520/WebRPA?style=for-the-badge&logo=github&label=Stars&color=8B5CF6&labelColor=0D1117" alt="WebRPA Stars 数" />
+        <img src="https://img.shields.io/github/stars/pmh1314520/WebRPA?style=for-the-badge&logo=github&label=Stars&color=38BDF8&labelColor=0D1117" alt="WebRPA Stars 数" />
         <img src="https://img.shields.io/github/forks/pmh1314520/WebRPA?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="WebRPA Forks 数" />
       </a>
       <br />
@@ -286,7 +314,7 @@
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="主要语言 TypeScript" />
       <br />
       <a href="https://github.com/pmh1314520/MCTier">
-        <img src="https://img.shields.io/github/stars/pmh1314520/MCTier?style=for-the-badge&logo=github&label=Stars&color=8B5CF6&labelColor=0D1117" alt="MCTier Stars 数" />
+        <img src="https://img.shields.io/github/stars/pmh1314520/MCTier?style=for-the-badge&logo=github&label=Stars&color=38BDF8&labelColor=0D1117" alt="MCTier Stars 数" />
         <img src="https://img.shields.io/github/forks/pmh1314520/MCTier?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="MCTier Forks 数" />
       </a>
       <br />
@@ -306,7 +334,7 @@
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="主要语言 Python" />
       <br />
       <a href="https://github.com/pmh1314520/WinMsgHub">
-        <img src="https://img.shields.io/github/stars/pmh1314520/WinMsgHub?style=for-the-badge&logo=github&label=Stars&color=8B5CF6&labelColor=0D1117" alt="WinMsgHub Stars 数" />
+        <img src="https://img.shields.io/github/stars/pmh1314520/WinMsgHub?style=for-the-badge&logo=github&label=Stars&color=38BDF8&labelColor=0D1117" alt="WinMsgHub Stars 数" />
         <img src="https://img.shields.io/github/forks/pmh1314520/WinMsgHub?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="WinMsgHub Forks 数" />
       </a>
       <br />
@@ -324,7 +352,7 @@
       <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="主要语言 Rust" />
       <br />
       <a href="https://github.com/pmh1314520/HypoMuxPlus">
-        <img src="https://img.shields.io/github/stars/pmh1314520/HypoMuxPlus?style=for-the-badge&logo=github&label=Stars&color=8B5CF6&labelColor=0D1117" alt="HypoMuxPlus Stars 数" />
+        <img src="https://img.shields.io/github/stars/pmh1314520/HypoMuxPlus?style=for-the-badge&logo=github&label=Stars&color=38BDF8&labelColor=0D1117" alt="HypoMuxPlus Stars 数" />
         <img src="https://img.shields.io/github/forks/pmh1314520/HypoMuxPlus?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="HypoMuxPlus Forks 数" />
       </a>
       <br />
@@ -340,20 +368,20 @@
 <!-- SECTION:SOCIAL:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/link.png" alt="联系图标" />&nbsp; 联系我 · Connect With Me</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
   社交链接：<div align="center"> 内每个平台为 [![alt](shields.io badgeURL)](targetURL) 形式的静态 Markdown 超链接徽章（Property 11 / 需求 6.4）。
   每个徽章 = shields.io badge（style=for-the-badge，含平台 Logo logo=、平台名称文字标签、非空 alt）。
-  - 个人网站 → https://www.pmhs.top（含协议前缀绝对 URL，需求 6.1），主色紫罗兰 8B5CF6。
+  - 个人网站 → https://www.pmhs.top（含协议前缀绝对 URL，需求 6.1），主色紫罗兰 38BDF8。
   - Bilibili  → https://space.bilibili.com/1102546347（需求 6.2），官方品牌粉 FB7299。
   邮箱徽章：无可公开的有效联系邮箱（全局配置未声明 EMAIL），属缺失链接目标，按需求 6.6 直接不写入。
   markdown 徽章置于 <div align="center"> 内，前后留空行以确保 GitHub 正常渲染 Markdown 语法。
 -->
 <div align="center">
 
-[![个人网站 www.pmhs.top](https://img.shields.io/badge/个人网站-www.pmhs.top-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.pmhs.top)
+[![个人网站 www.pmhs.top](https://img.shields.io/badge/个人网站-www.pmhs.top-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.pmhs.top)
 [![Bilibili 主页 哔哩哔哩](https://img.shields.io/badge/Bilibili-哔哩哔哩-FB7299?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/1102546347)
 
 </div>
@@ -363,7 +391,7 @@
 <!-- SECTION:SPONSOR:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/coffee-to-go.png" alt="赞赏图标" />&nbsp; 赞赏支持 · Sponsor Me</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
@@ -374,7 +402,7 @@
 
 <p align="center">
   <a href="https://ifdian.net/a/qypmh">
-    <img src="https://img.shields.io/badge/爱发电-在爱发电支持我-946CE6?style=for-the-badge&logo=afdian&logoColor=white" alt="爱发电 - 在爱发电支持青云制作_彭明航" />
+    <img src="https://img.shields.io/badge/爱发电-在爱发电支持我-38BDF8?style=for-the-badge&logo=afdian&logoColor=white" alt="爱发电 - 在爱发电支持青云制作_彭明航" />
   </a>
 </p>
 
@@ -400,7 +428,7 @@
 <!-- SECTION:VISITOR_SNAKE:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/conference-call.png" alt="访客图标" />&nbsp; 访客与贡献 · Visitors &amp; Contributions</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
@@ -440,7 +468,7 @@
 <!-- SECTION:FOOTER:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/like.png" alt="感谢图标" />&nbsp; 感谢访问 · Thanks for Visiting</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
 </div>
 
 <!--
@@ -451,10 +479,8 @@
 
 <p align="center"><sub>Designed with <img height="14" src="https://img.icons8.com/fluency/48/like.png" alt="爱心" /> by 青云制作_彭明航 · Powered by GitHub Actions &amp; Open Source</sub></p>
 
-<p align="center"><sub>图标由 <a href="https://icons8.com">Icons8</a> 提供 · Icons by Icons8</sub></p>
-
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,50:22D3EE,100:8B5CF6&height=150&section=footer" alt="底部粉青紫渐变波浪装饰" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2DD4BF,50:22D3EE,100:38BDF8&height=150&section=footer" alt="底部薄荷到天蓝渐变波浪装饰" />
 </div>
 
 <!-- SECTION:FOOTER:END -->
