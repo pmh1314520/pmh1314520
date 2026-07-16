@@ -12,7 +12,7 @@
   深色主题面：bg=#0D1117  border=#30363D  text=#C9D1D9
   浅色主题面：bg=#FFFFFF  border=#D0D7DE  text=#1F2328
 
-  统一分隔元素：violet→cyan→pink 渐变分隔条（capsule-render type=rect），
+  统一分隔元素：天蓝→青→薄荷 渐变分隔条（capsule-render type=rect），
   位于每个主要区块标题下方，作为可辨识的层次锚点；相邻区块间分隔类型一致。
   仅使用 GitHub 允许的内联 HTML 子集：div/table/tr/td/picture/source/img/a/sub/sup/h1-h4/hr/b/br。
 ================================================================================
@@ -443,7 +443,7 @@
 <!--
   社交链接：<div align="center"> 内每个平台为 [![alt](shields.io badgeURL)](targetURL) 形式的静态 Markdown 超链接徽章（Property 11 / 需求 6.4）。
   每个徽章 = shields.io badge（style=for-the-badge，含平台 Logo logo=、平台名称文字标签、非空 alt）。
-  - 个人网站 → https://www.pmhs.top（含协议前缀绝对 URL，需求 6.1），主色紫罗兰 38BDF8。
+  - 个人网站 → https://www.pmhs.top（含协议前缀绝对 URL，需求 6.1），主色天蓝 38BDF8。
   - Bilibili  → https://space.bilibili.com/1102546347（需求 6.2），官方品牌粉 FB7299。
   邮箱徽章：无可公开的有效联系邮箱（全局配置未声明 EMAIL），属缺失链接目标，按需求 6.6 直接不写入。
   markdown 徽章置于 <div align="center"> 内，前后留空行以确保 GitHub 正常渲染 Markdown 语法。
