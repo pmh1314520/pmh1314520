@@ -61,6 +61,14 @@
   <img height="18" src="https://img.icons8.com/fluency/48/marker.png" alt="所在地" /> 江苏省盐城市 Yancheng City, Jiangsu Province
 </p>
 
+<!-- 快捷入口：一进主页即可直达 网站 / B站 / 爱发电，并展示 GitHub 关注数；flat-square 轻量风格区别于底部社交区 -->
+<p align="center">
+  <a href="https://www.pmhs.top"><img src="https://img.shields.io/badge/个人网站-Website-38BDF8?style=flat-square&logo=googlechrome&logoColor=white" alt="个人网站 · Website" /></a>
+  <a href="https://space.bilibili.com/1102546347"><img src="https://img.shields.io/badge/Bilibili-哔哩哔哩-FB7299?style=flat-square&logo=bilibili&logoColor=white" alt="Bilibili · 哔哩哔哩" /></a>
+  <a href="https://ifdian.net/a/qypmh"><img src="https://img.shields.io/badge/爱发电-Sponsor-2DD4BF?style=flat-square&logo=afdian&logoColor=white" alt="爱发电 · Sponsor" /></a>
+  <a href="https://github.com/pmh1314520"><img src="https://img.shields.io/github/followers/pmh1314520?style=flat-square&logo=github&label=Followers&color=22D3EE&labelColor=0D1117" alt="GitHub Followers · GitHub 关注数" /></a>
+</p>
+
 - <img height="18" src="https://img.icons8.com/fluency/48/idea.png" alt="专注" /> 专注于计算机技术的学习与实践，热爱钻研底层原理与工程实现
 - <img height="18" src="https://img.icons8.com/fluency/48/source-code.png" alt="开源" /> 持续维护多个开源项目，享受与社区一起打磨代码的过程
 - <img height="18" src="https://img.icons8.com/fluency/48/gears.png" alt="自动化" /> 热衷于自动化工具的研发，让重复繁琐的工作交给程序完成
