@@ -1,7 +1,7 @@
 ﻿<!--
 ================================================================================
   Profile README · pmh1314520（青云制作_彭明航）
-  10 个主要区块以成对注释标记界定（TYPING_BANNER / ABOUT_ME / HONORS / TECH_STACK / STATS / PROJECTS / SOCIAL / SPONSOR / VISITOR_SNAKE / FOOTER）。
+  10 个主要区块以成对注释标记界定（TYPING_BANNER / ABOUT_ME / HONORS / TECH_STACK / PROJECTS / STATS / VISITOR_SNAKE / SOCIAL / SPONSOR / FOOTER）。
 --------------------------------------------------------------------------------
   全局配色常量（后续所有区块统一取色依据；≤4 主色，不引入方案外额外主色）
   PRIMARY_SKY = #38BDF8   天蓝主强调（卡片标题色 / 区块标题装饰 / 主徽章底色）
@@ -55,9 +55,11 @@
   <img height="20" src="https://img.icons8.com/fluency/48/quote-right.png" alt="格言" />
 </p>
 
-<p align="center"><img height="18" src="https://img.icons8.com/fluency/48/graduation-cap.png" alt="院校" /> 就读于 盐城工学院（Yancheng Institute of Technology）</p>
-
-<p align="center"><img height="18" src="https://img.icons8.com/fluency/48/marker.png" alt="所在地" /> 江苏省盐城市（Yancheng City, Jiangsu Province）</p>
+<p align="center">
+  <img height="18" src="https://img.icons8.com/fluency/48/graduation-cap.png" alt="院校" /> 盐城工学院 Yancheng Institute of Technology
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <img height="18" src="https://img.icons8.com/fluency/48/marker.png" alt="所在地" /> 江苏省盐城市 Yancheng City, Jiangsu Province
+</p>
 
 <!--
   自动年龄卡片：由每日刷新工作流(refresh-assets.yml)内联 Python 按生日 2006-10-26 计算年龄，
@@ -222,54 +224,6 @@
 
 <!-- SECTION:TECH_STACK:END -->
 
-<!-- SECTION:STATS:START -->
-<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="数据统计图标" />&nbsp; GitHub 数据 · GitHub Stats</h2>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
-</div>
-
-<!--
-  自定义数据看板：由每日刷新工作流经 GitHub API 汇总 公开仓库数 / Star 总数 / Fork 总数 / Followers，
-  生成主题自适应 SVG(dashboard.svg) 推到 output 分支，每日自动更新；alt 非空。
--->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/dashboard.svg" alt="数据看板 · 公开仓库数 / Star 总数 / Fork 总数 / Followers（每日自动更新）" />
-</div>
-
-<!--
-  三张统计卡片，均用 <picture> + <source media="(prefers-color-scheme: dark)"> + 浅色 <img> 回退实现深/浅主题切换。
-  三卡配色参数取值完全一致且等于全局主题声明色值（Property 9）：
-    深色 bg=0D1117 title=38BDF8 text=C9D1D9 icon=22D3EE border=30363D
-    浅色 bg=FFFFFF title=0284C7 text=1F2328 icon=0891B2 border=D0D7DE
-  streak-stats 参数名不同（background/ring/fire/currStreakLabel/sideLabels/dates/stroke 等），但色值取相同值。
--->
-
-<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="通用统计图标" />&nbsp; 通用统计 · Overall Stats</h4>
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
-    <img alt="pmh1314520 的 GitHub 通用统计卡片：展示 Star 总数、提交数、Follower 数与贡献数" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=FFFFFF&title_color=0284C7&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
-  </picture>
-</div>
-
-<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/chat.png" alt="常用语言图标" />&nbsp; 常用语言 · Most Used Languages</h4>
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
-    <img alt="pmh1314520 的常用编程语言占比卡片：展示占比最高的前若干种语言及其百分比" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=0284C7&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
-  </picture>
-</div>
-
-<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/light-on.png" alt="连续贡献图标" />&nbsp; 连续贡献 · Contribution Streak</h4>
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=pmh1314520&background=0D1117&ring=38BDF8&fire=22D3EE&currStreakLabel=38BDF8&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&stroke=30363D" />
-    <img alt="pmh1314520 的连续贡献天数卡片：展示当前连续贡献天数与历史最长连续贡献天数" src="https://streak-stats.demolab.com/?user=pmh1314520&background=FFFFFF&ring=0284C7&fire=0891B2&currStreakLabel=0284C7&currStreakNum=1F2328&sideLabels=1F2328&sideNums=1F2328&dates=1F2328&stroke=D0D7DE" />
-  </picture>
-</div>
-
-<!-- SECTION:STATS:END -->
-
 <!-- SECTION:PROJECTS:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/rocket.png" alt="项目图标" />&nbsp; 代表项目 · Featured Projects</h2>
 <div align="center">
@@ -365,6 +319,100 @@
 
 <!-- SECTION:PROJECTS:END -->
 
+<!-- SECTION:STATS:START -->
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="数据统计图标" />&nbsp; GitHub 数据 · GitHub Stats</h2>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
+</div>
+
+<!--
+  自定义数据看板：由每日刷新工作流经 GitHub API 汇总 公开仓库数 / Star 总数 / Fork 总数 / Followers，
+  生成主题自适应 SVG(dashboard.svg) 推到 output 分支，每日自动更新；alt 非空。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/dashboard.svg" alt="数据看板 · 公开仓库数 / Star 总数 / Fork 总数 / Followers（每日自动更新）" />
+</div>
+
+<!--
+  三张统计卡片，均用 <picture> + <source media="(prefers-color-scheme: dark)"> + 浅色 <img> 回退实现深/浅主题切换。
+  三卡配色参数取值完全一致且等于全局主题声明色值（Property 9）：
+    深色 bg=0D1117 title=38BDF8 text=C9D1D9 icon=22D3EE border=30363D
+    浅色 bg=FFFFFF title=0284C7 text=1F2328 icon=0891B2 border=D0D7DE
+  streak-stats 参数名不同（background/ring/fire/currStreakLabel/sideLabels/dates/stroke 等），但色值取相同值。
+-->
+
+<!-- 通用统计 + 常用语言 并排一行（table 两列），连续贡献单独居中一行 -->
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <b><img height="18" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="通用统计图标" /> 通用统计 · Overall Stats</b>
+      <br />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
+        <img alt="pmh1314520 的 GitHub 通用统计卡片：展示 Star 总数、提交数、Follower 数与贡献数" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=FFFFFF&title_color=0284C7&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
+      </picture>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <b><img height="18" src="https://img.icons8.com/fluency/48/chat.png" alt="常用语言图标" /> 常用语言 · Most Used Languages</b>
+      <br />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
+        <img alt="pmh1314520 的常用编程语言占比卡片：展示占比最高的前若干种语言及其百分比" src="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=FFFFFF&title_color=0284C7&text_color=1F2328&icon_color=0891B2&border_color=D0D7DE" />
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/light-on.png" alt="连续贡献图标" />&nbsp; 连续贡献 · Contribution Streak</h4>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=pmh1314520&background=0D1117&ring=38BDF8&fire=22D3EE&currStreakLabel=38BDF8&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&stroke=30363D" />
+    <img alt="pmh1314520 的连续贡献天数卡片：展示当前连续贡献天数与历史最长连续贡献天数" src="https://streak-stats.demolab.com/?user=pmh1314520&background=FFFFFF&ring=0284C7&fire=0891B2&currStreakLabel=0284C7&currStreakNum=1F2328&sideLabels=1F2328&sideNums=1F2328&dates=1F2328&stroke=D0D7DE" />
+  </picture>
+</div>
+
+<!-- SECTION:STATS:END -->
+
+<!-- SECTION:VISITOR_SNAKE:START -->
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/conference-call.png" alt="访客图标" />&nbsp; 访客与贡献 · Visitors &amp; Contributions</h2>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
+</div>
+
+<!--
+  访客计数徽章（komarev / ghpvc）：以数字形式展示主页累计访问次数（需求 7.1）。
+  color=22D3EE 次强调青，style=for-the-badge 与全站徽章风格一致。
+  alt 说明用途，图像无法加载时降级为该文本（需求 7.7）。
+-->
+<div align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=pmh1314520&label=Profile+Views&color=22D3EE&style=for-the-badge"
+    alt="Profile Views - 主页累计访问次数"
+  />
+</div>
+
+<!--
+  3D 立体贡献图：由每日刷新工作流经 yoshi389111/github-profile-3d-contrib 生成 profile-night-green.svg，
+  复制为 output 分支的 profile-3d.svg，README 引用，每日自动更新；alt 非空，资产未就绪时降级为 alt。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/profile-3d.svg" alt="3D 立体贡献图 · 由工作流每日生成的贡献热图立体可视化（每日自动更新）" />
+</div>
+
+<!--
+  蛇形贡献动画：引用 output 分支预生成 SVG（由刷新工作流 Platane/snk 每 24h 生成）。
+  <picture> + <source media="(prefers-color-scheme: dark)"> 深色版 + 浅色 <img> 回退实现深/浅主题切换（需求 7.4）。
+  资产尚不存在或加载失败时，浏览器降级展示 img 的 alt 文本以说明该区块用途（需求 7.5）。
+-->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/github-snake-dark.svg" />
+    <img alt="pmh1314520 的 GitHub 贡献热图蛇形动画" src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/github-snake.svg" />
+  </picture>
+</div>
+
+<!-- SECTION:VISITOR_SNAKE:END -->
+
 <!-- SECTION:SOCIAL:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/link.png" alt="联系图标" />&nbsp; 联系我 · Connect With Me</h2>
 <div align="center">
@@ -424,46 +472,6 @@
 </div>
 
 <!-- SECTION:SPONSOR:END -->
-
-<!-- SECTION:VISITOR_SNAKE:START -->
-<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/conference-call.png" alt="访客图标" />&nbsp; 访客与贡献 · Visitors &amp; Contributions</h2>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:22D3EE,100:2DD4BF&height=3" alt="天蓝到青到薄荷的渐变分隔条" width="100%" />
-</div>
-
-<!--
-  访客计数徽章（komarev / ghpvc）：以数字形式展示主页累计访问次数（需求 7.1）。
-  color=22D3EE 次强调青，style=for-the-badge 与全站徽章风格一致。
-  alt 说明用途，图像无法加载时降级为该文本（需求 7.7）。
--->
-<div align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=pmh1314520&label=Profile+Views&color=22D3EE&style=for-the-badge"
-    alt="Profile Views - 主页累计访问次数"
-  />
-</div>
-
-<!--
-  3D 立体贡献图：由每日刷新工作流经 yoshi389111/github-profile-3d-contrib 生成 profile-night-green.svg，
-  复制为 output 分支的 profile-3d.svg，README 引用，每日自动更新；alt 非空，资产未就绪时降级为 alt。
--->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/profile-3d.svg" alt="3D 立体贡献图 · 由工作流每日生成的贡献热图立体可视化（每日自动更新）" />
-</div>
-
-<!--
-  蛇形贡献动画：引用 output 分支预生成 SVG（由刷新工作流 Platane/snk 每 24h 生成）。
-  <picture> + <source media="(prefers-color-scheme: dark)"> 深色版 + 浅色 <img> 回退实现深/浅主题切换（需求 7.4）。
-  资产尚不存在或加载失败时，浏览器降级展示 img 的 alt 文本以说明该区块用途（需求 7.5）。
--->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/github-snake-dark.svg" />
-    <img alt="pmh1314520 的 GitHub 贡献热图蛇形动画" src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/github-snake.svg" />
-  </picture>
-</div>
-
-<!-- SECTION:VISITOR_SNAKE:END -->
 
 <!-- SECTION:FOOTER:START -->
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/like.png" alt="感谢图标" />&nbsp; 感谢访问 · Thanks for Visiting</h2>
