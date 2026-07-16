@@ -73,6 +73,101 @@ jobs:
           print("age generated:", years, days, total)
           PY
 
+      - name: Generate daily quote svg
+        continue-on-error: true
+        run: |
+          mkdir -p dist
+          python3 - <<'PY'
+          from datetime import date
+          quotes = [
+            ("学习是永无止境的，学以致用才是王道", "Learning never ends; applying it is the true way."),
+            ("先让它跑起来，再让它跑得快", "Make it work, then make it fast."),
+            ("代码是写给人看的，顺便让机器执行", "Code is written for humans to read."),
+            ("把复杂留给自己，把简单交给用户", "Keep the complexity, give away the simplicity."),
+            ("好的架构是一点点演化出来的", "Good architecture evolves step by step."),
+            ("与其抱怨黑暗，不如提灯前行", "Rather than curse the dark, carry a lamp forward."),
+            ("不积跬步，无以至千里", "A journey of a thousand miles begins with a step."),
+            ("纸上得来终觉浅，绝知此事要躬行", "Knowledge from books is shallow; practice is key."),
+            ("热爱可抵岁月漫长", "Passion outlasts the long years."),
+            ("保持好奇，持续创造", "Stay curious, keep creating."),
+            ("简单是可靠的前提", "Simplicity is the prerequisite for reliability."),
+            ("每天进步一点点", "A little progress every single day."),
+          ]
+          idx = date.today().timetuple().tm_yday % len(quotes)
+          cn, en = quotes[idx]
+          tmpl = '''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="72" viewBox="0 0 760 72" role="img" aria-label="quote">
+            <style>
+              .c { fill:#FFFFFF; stroke:#D0D7DE; }
+              .q { fill:#1F2328; font:600 18px 'Segoe UI','PingFang SC',sans-serif; }
+              .e { fill:#6E7781; font:italic 12px 'Segoe UI',sans-serif; }
+              @media (prefers-color-scheme: dark) { .c{fill:#0D1117;stroke:#30363D;} .q{fill:#C9D1D9;} .e{fill:#8B949E;} }
+            </style>
+            <defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+            <rect class="c" x="1" y="1" width="758" height="70" rx="12" stroke-width="1.5"/>
+            <rect x="1" y="1" width="6" height="70" rx="3" fill="url(#b)"/>
+            <text x="30" y="32" class="q">%(cn)s</text>
+            <text x="30" y="54" class="e">%(en)s</text>
+          </svg>'''
+          open("dist/quote.svg", "w", encoding="utf-8").write(tmpl % {"cn": cn, "en": en})
+          print("quote generated idx", idx)
+          PY
+
+      - name: Generate stats dashboard svg
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          python3 - <<'PY'
+          import json, os, urllib.request
+          tok = os.environ.get("GH_TOKEN", "")
+          def api(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "profile-readme", "Authorization": "Bearer %s" % tok, "Accept": "application/vnd.github+json"})
+              return json.load(urllib.request.urlopen(req, timeout=30))
+          user = api("https://api.github.com/users/pmh1314520")
+          repos = api("https://api.github.com/users/pmh1314520/repos?per_page=100&type=owner")
+          stars = sum(r.get("stargazers_count", 0) for r in repos)
+          forks = sum(r.get("forks_count", 0) for r in repos)
+          followers = user.get("followers", 0)
+          public = user.get("public_repos", 0)
+          tiles = [(public, "Repos"), (stars, "Stars"), (forks, "Forks"), (followers, "Followers")]
+          cells = ""
+          for i, (num, lab) in enumerate(tiles):
+              cx = 95 + i * 190
+              cells += '<text x="%d" y="58" text-anchor="middle" class="num">%s</text>' % (cx, num)
+              cells += '<text x="%d" y="86" text-anchor="middle" class="lab">%s</text>' % (cx, lab)
+              if i > 0:
+                  cells += '<line x1="%d" y1="28" x2="%d" y2="92" class="sep"/>' % (i * 190, i * 190)
+          tmpl = '''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="120" viewBox="0 0 760 120" role="img" aria-label="stats dashboard">
+            <style>
+              .c { fill:#FFFFFF; stroke:#D0D7DE; }
+              .num { fill:#7C3AED; font:800 30px 'Segoe UI',sans-serif; }
+              .lab { fill:#1F2328; font:600 13px 'Segoe UI',sans-serif; letter-spacing:1px; }
+              .sep { stroke:#D0D7DE; stroke-width:1; }
+              @media (prefers-color-scheme: dark) { .c{fill:#0D1117;stroke:#30363D;} .num{fill:#8B5CF6;} .lab{fill:#C9D1D9;} .sep{stroke:#30363D;} }
+            </style>
+            <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"/></linearGradient></defs>
+            <rect class="c" x="1" y="1" width="758" height="118" rx="14" stroke-width="1.5"/>
+            <rect x="1" y="1" width="758" height="5" rx="2.5" fill="url(#bar)"/>
+            %(cells)s
+          </svg>'''
+          open("dist/dashboard.svg", "w", encoding="utf-8").write(tmpl % {"cells": cells})
+          print("dashboard", stars, forks, followers, public)
+          PY
+
+      - name: Generate 3D contribution graph
+        continue-on-error: true
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: pmh1314520
+
+      - name: Copy 3D graph into dist
+        continue-on-error: true
+        run: |
+          mkdir -p dist
+          cp -f profile-3d-contrib/profile-night-green.svg dist/profile-3d.svg || true
+
       - name: Push to output branch (only if changed)
         uses: crazy-max/ghaction-github-pages@v4
         with:

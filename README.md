@@ -30,7 +30,7 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:22D3EE,100:F472B6&height=170&section=header" alt="顶部青紫粉渐变波浪装饰" />
   <br />
   <img
-    src="https://readme-typing-svg.demolab.com/?font=Ma+Shan+Zheng&size=36&duration=3500&pause=800&center=true&vCenter=true&width=680&height=100&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%20%C2%B7%20%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%20%C2%B7%20%E8%87%AA%E5%8A%A8%E5%8C%96;%E4%BB%A3%E7%A0%81%E5%8D%B3%E7%83%AD%E7%88%B1%20%C2%B7%20%E5%88%9B%E9%80%A0%E5%8D%B3%E5%BF%AB%E4%B9%90"
+    src="https://readme-typing-svg.demolab.com/?font=Ma+Shan+Zheng&size=36&duration=3500&pause=800&center=true&vCenter=true&width=680&height=100&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;A%20Student%20Obsessed%20With%20Computer%20Tech;%E5%AD%A6%E4%BB%A5%E8%87%B4%E7%94%A8%E6%89%8D%E6%98%AF%E7%8E%8B%E9%81%93;Learn%20By%20Doing%2C%20Master%20By%20Using"
     alt="青云制作_彭明航 - 一个痴迷于计算机技术的学生"
   />
   <br />
@@ -68,6 +68,13 @@
   <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/age.svg" alt="我的年龄 · 由工作流按生日每日自动计算更新" />
 </div>
 
+<!--
+  每日一言：由每日刷新工作流按天轮换一句编程 / 学习箴言，生成主题自适应 SVG(quote.svg) 推到 output 分支，每日自动更新。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/quote.svg" alt="每日一言 · 编程与学习箴言（每日自动更新）" />
+</div>
+
 - <img height="18" src="https://img.icons8.com/fluency/48/idea.png" alt="专注" /> 专注于计算机技术的学习与实践，热爱钻研底层原理与工程实现
 - <img height="18" src="https://img.icons8.com/fluency/48/source-code.png" alt="开源" /> 持续维护多个开源项目，享受与社区一起打磨代码的过程
 - <img height="18" src="https://img.icons8.com/fluency/48/gears.png" alt="自动化" /> 热衷于自动化工具的研发，让重复繁琐的工作交给程序完成
@@ -80,6 +87,13 @@
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/source-code.png" alt="技术栈图标" />&nbsp; 技术栈 · Tech Stack</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+</div>
+
+<!--
+  技能图标墙：skillicons.dev 一张 SVG 渲染整齐的技术图标网格，作为技术栈的视觉总览；下方为详细分类徽章。
+-->
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,kotlin,c,cpp,cs,ts,js,rust,go,vue,react,vite,tailwind,threejs,html,css,flutter,electron,tauri,nodejs,bun,fastapi,spring,dotnet,qt,mysql,postgres,mongodb,sqlite,redis,nginx,docker,kubernetes,linux,prometheus,grafana,unity,godot,unreal,ps,pr,git,github,vscode,pycharm,goland,visualstudio,windows&perline=13" alt="技能图标墙：常用编程语言、框架、数据库、云原生、游戏与工具技术图标总览" />
 </div>
 
 <!--
@@ -184,6 +198,14 @@
 <h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="数据统计图标" />&nbsp; GitHub 数据 · GitHub Stats</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
+</div>
+
+<!--
+  自定义数据看板：由每日刷新工作流经 GitHub API 汇总 公开仓库数 / Star 总数 / Fork 总数 / Followers，
+  生成主题自适应 SVG(dashboard.svg) 推到 output 分支，每日自动更新；alt 非空。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/dashboard.svg" alt="数据看板 · 公开仓库数 / Star 总数 / Fork 总数 / Followers（每日自动更新）" />
 </div>
 
 <!--
@@ -391,6 +413,14 @@
     src="https://komarev.com/ghpvc/?username=pmh1314520&label=Profile+Views&color=22D3EE&style=for-the-badge"
     alt="Profile Views - 主页累计访问次数"
   />
+</div>
+
+<!--
+  3D 立体贡献图：由每日刷新工作流经 yoshi389111/github-profile-3d-contrib 生成 profile-night-green.svg，
+  复制为 output 分支的 profile-3d.svg，README 引用，每日自动更新；alt 非空，资产未就绪时降级为 alt。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/profile-3d.svg" alt="3D 立体贡献图 · 由工作流每日生成的贡献热图立体可视化（每日自动更新）" />
 </div>
 
 <!--
