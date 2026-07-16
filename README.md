@@ -133,7 +133,7 @@
   技能图标墙：skillicons.dev 一张 SVG 渲染整齐的技术图标网格，作为技术栈的视觉总览；下方为详细分类徽章。
 -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,java,kotlin,c,cpp,cs,ts,js,rust,go,vue,react,vite,tailwind,threejs,html,css,flutter,electron,tauri,nodejs,bun,fastapi,spring,dotnet,qt,mysql,postgres,mongodb,sqlite,redis,nginx,docker,kubernetes,linux,prometheus,grafana,unity,godot,unreal,ps,pr,git,github,vscode,pycharm,visualstudio,windows&perline=13" alt="技能图标墙：常用编程语言、框架、数据库、云原生、游戏与工具技术图标总览（GoLand 见下方分类徽章）" />
+  <img src="https://skillicons.dev/icons?i=py,java,kotlin,c,cpp,cs,ts,js,rust,go,vue,react,vite,tailwind,threejs,html,css,flutter,electron,tauri,nodejs,bun,fastapi,spring,dotnet,qt,mysql,postgres,mongodb,sqlite,redis,nginx,docker,kubernetes,linux,prometheus,grafana,unity,godot,unreal,ps,pr,git,github,vscode,pycharm,visualstudio,ubuntu,windows&perline=13" alt="技能图标墙：常用编程语言、框架、数据库、云原生、游戏与工具技术图标总览（GoLand 见下方分类徽章）" />
 </div>
 
 <!--
@@ -230,6 +230,8 @@
   <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
   <img src="https://img.shields.io/badge/1Panel-0195FF?style=for-the-badge&logo=1panel&logoColor=white" alt="1Panel" />
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
 </p>
 
 <!-- SECTION:TECH_STACK:END -->
