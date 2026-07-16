@@ -23,11 +23,12 @@
   打字横幅：文档最顶部第一个可见区块（位于任何其他内容之前，无标题以确保居首）。
   readme-typing-svg 动画 SVG，<div align="center"> 实现水平居中。
   color=0891B2 加深青：单一 SVG 同时用于深/浅两种主题，无需 <picture>。
-  lines 以 ; 分隔，共 4 句（≥3）、每句 ≤50 字符，含昵称与简介；空格用 + 表示，& 编码为 %26。
+  lines 以 ; 分隔，共 4 句（≥3）、每句 ≤50 字符，含昵称与简介。
+  【重要】中文与 emoji 必须做 URL 百分号编码，否则 GitHub 图片代理(camo)取不到图导致横幅空白。
 -->
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3500&pause=800&center=true&vCenter=true&width=600&height=80&repeat=true&color=0891B2&lines=青云制作_彭明航+👋;一个痴迷于计算机技术的学生;Python+/+TypeScript+/+Rust+Developer;Automation+%26+Open+Source+Enthusiast"
+    src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3500&pause=800&center=true&vCenter=true&width=600&height=80&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA%20%F0%9F%91%8B;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;Python%20%2F%20TypeScript%20%2F%20Rust%20%2F%20Go%20Developer;Game%20Dev%20%C2%B7%20Full-Stack%20%C2%B7%20Automation"
     alt="青云制作_彭明航 - 一个痴迷于计算机技术的学生"
   />
 </div>
@@ -64,20 +65,20 @@
   技术栈徽章：<div align="center"> 内按 7 组排列 shields.io 徽章（style=for-the-badge）。
   每组前置 <h4 align="center"> 小标题；每个徽章含技术名称文字标签 + 官方 logo（有则带）+ 非空 alt。
   无官方图标的技术省略 logo 参数使用纯色文字徽章，仍保留名称与非空 alt。
-  分组数 7（2~8）、徽章总数在 3~60 之间，必含 Python / TypeScript / Rust。
+  分组数 8（2~8）、徽章总数在 3~60 之间，必含 Python / TypeScript / Rust。
   徽章图片实时取自 img.shields.io（稳定），内容固定，属静态区块。
 -->
 
 <h4 align="center">💻 编程语言 · Programming Languages</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C Sharp" />
+  <img src="https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="GDScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C Sharp" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
 <h4 align="center">🎨 前端 · Frontend</h4>
@@ -91,17 +92,23 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-<h4 align="center">⚙️ 后端 &amp; 桌面 · Backend &amp; Desktop</h4>
+<h4 align="center">📱 跨端 · Cross-Platform</h4>
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="dotNET" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri" />
 </p>
 
+<h4 align="center">⚙️ 后端 · Backend</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="dotNET" />
+</p>
+
 <h4 align="center">🗄️ 数据库 &amp; 中间件 · Databases &amp; Middleware</h4>
 <p align="center">
+  <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
@@ -285,20 +292,22 @@
 -->
 <p align="center">如果我的项目或分享曾对你有帮助，欢迎请我喝杯咖啡，你的支持是我持续创作与开源的动力 💜</p>
 
+<div align="center">
 <table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="260">
       <img src="assets/sponsor-wechat.png" width="220" alt="微信收款码 · WeChat Pay QR" />
       <br />
       <b>微信 · WeChat Pay</b>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="260">
       <img src="assets/sponsor-alipay.jpg" width="220" alt="支付宝收款码 · Alipay QR" />
       <br />
       <b>支付宝 · Alipay</b>
     </td>
   </tr>
 </table>
+</div>
 
 <!-- SECTION:SPONSOR:END -->
 
