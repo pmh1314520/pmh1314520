@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48" role="img" aria-label="scrolling banner">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.08" stop-color="#000" stop-opacity="1"/>
+      <stop offset="0.92" stop-color="#000" stop-opacity="1"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="edge">
+      <rect x="0" y="0" width="900" height="48" fill="url(#fade)"/>
+    </mask>
+  </defs>
+  <g mask="url(#edge)">
+    <g font-family="'Segoe UI','PingFang SC',sans-serif" font-size="20" font-weight="700" fill="url(#grad)">
+      <g>
+        <text x="0" y="32">&#10022;&#160;&#160;&#23398;&#20197;&#33268;&#29992;&#25165;&#26159;&#29579;&#36947;&#160;&#160;&#10022;&#160;&#160;Vibe Coding&#160;&#160;&#10022;&#160;&#160;Full-Stack&#160;&#160;&#10022;&#160;&#160;Game Dev&#160;&#160;&#10022;&#160;&#160;Automation&#160;&#160;&#10022;&#160;&#160;Open Source&#160;&#160;</text>
+        <text x="760" y="32">&#10022;&#160;&#160;&#23398;&#20197;&#33268;&#29992;&#25165;&#26159;&#29579;&#36947;&#160;&#160;&#10022;&#160;&#160;Vibe Coding&#160;&#160;&#10022;&#160;&#160;Full-Stack&#160;&#160;&#10022;&#160;&#160;Game Dev&#160;&#160;&#10022;&#160;&#160;Automation&#160;&#160;&#10022;&#160;&#160;Open Source&#160;&#160;</text>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-760 0" dur="16s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+</svg>

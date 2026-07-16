@@ -33,6 +33,9 @@
     src="https://readme-typing-svg.demolab.com/?font=Ma+Shan+Zheng&size=36&duration=3500&pause=800&center=true&vCenter=true&width=680&height=100&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%20%C2%B7%20%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%20%C2%B7%20%E8%87%AA%E5%8A%A8%E5%8C%96;%E4%BB%A3%E7%A0%81%E5%8D%B3%E7%83%AD%E7%88%B1%20%C2%B7%20%E5%88%9B%E9%80%A0%E5%8D%B3%E5%BF%AB%E4%B9%90"
     alt="青云制作_彭明航 - 一个痴迷于计算机技术的学生"
   />
+  <br />
+  <!-- 无限横向滚动跑马灯：手写 SMIL 动画 SVG，双拷贝无缝循环，边缘渐隐遮罩，本地资源稳定不破图 -->
+  <img width="72%" src="assets/marquee.svg" alt="滚动横幅：学以致用才是王道 · Vibe Coding · Full-Stack · Game Dev · Automation · Open Source" />
 </div>
 <!-- SECTION:TYPING_BANNER:END -->
 
@@ -55,6 +58,15 @@
 <p align="center"><img height="18" src="https://img.icons8.com/fluency/48/graduation-cap.png" alt="院校" /> 就读于 盐城工学院（Yancheng Institute of Technology）</p>
 
 <p align="center"><img height="18" src="https://img.icons8.com/fluency/48/marker.png" alt="所在地" /> 江苏省盐城市（Yancheng City, Jiangsu Province）</p>
+
+<!--
+  自动年龄卡片：由每日刷新工作流(refresh-assets.yml)内联 Python 按生日 2006-10-26 计算年龄，
+  生成主题自适应 SVG(age.svg) 推送到 output 分支，README 引用 raw URL，每天自动更新，无需人工维护。
+  单张自适应 SVG(内置 prefers-color-scheme)，非 <picture>；alt 非空描述用途。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/age.svg" alt="我的年龄 · 由工作流按生日每日自动计算更新" />
+</div>
 
 - <img height="18" src="https://img.icons8.com/fluency/48/idea.png" alt="专注" /> 专注于计算机技术的学习与实践，热爱钻研底层原理与工程实现
 - <img height="18" src="https://img.icons8.com/fluency/48/source-code.png" alt="开源" /> 持续维护多个开源项目，享受与社区一起打磨代码的过程
