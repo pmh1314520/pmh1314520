@@ -37,7 +37,7 @@
 <!-- SECTION:TYPING_BANNER:END -->
 
 <!-- SECTION:ABOUT_ME:START -->
-<h2 align="center">👤 关于我 · About Me</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/user-male-circle.png" alt="关于我图标" />&nbsp; 关于我 · About Me</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -46,19 +46,25 @@
 
 <p align="center">一个痴迷于计算机技术的学生 · A student obsessed with computer technology</p>
 
-<p align="center">🎓 就读于 盐城工学院（Yancheng Institute of Technology）</p>
+<p align="center">
+  <img height="20" src="https://img.icons8.com/fluency/48/quote-left.png" alt="格言" />
+  <i>学习是永无止境的，学以致用才是王道！</i>
+  <img height="20" src="https://img.icons8.com/fluency/48/quote-right.png" alt="格言" />
+</p>
 
-<p align="center">📍 江苏省盐城市（Yancheng City, Jiangsu Province）</p>
+<p align="center"><img height="18" src="https://img.icons8.com/fluency/48/graduation-cap.png" alt="院校" /> 就读于 盐城工学院（Yancheng Institute of Technology）</p>
 
-- 🔭 专注于计算机技术的学习与实践，热爱钻研底层原理与工程实现
-- 🌱 持续维护多个开源项目，享受与社区一起打磨代码的过程
-- ⚙️ 热衷于自动化工具的研发，让重复繁琐的工作交给程序完成
-- 🌐 个人网站：[www.pmhs.top](https://www.pmhs.top)
+<p align="center"><img height="18" src="https://img.icons8.com/fluency/48/marker.png" alt="所在地" /> 江苏省盐城市（Yancheng City, Jiangsu Province）</p>
+
+- <img height="18" src="https://img.icons8.com/fluency/48/idea.png" alt="专注" /> 专注于计算机技术的学习与实践，热爱钻研底层原理与工程实现
+- <img height="18" src="https://img.icons8.com/fluency/48/source-code.png" alt="开源" /> 持续维护多个开源项目，享受与社区一起打磨代码的过程
+- <img height="18" src="https://img.icons8.com/fluency/48/gears.png" alt="自动化" /> 热衷于自动化工具的研发，让重复繁琐的工作交给程序完成
+- <img height="18" src="https://img.icons8.com/fluency/48/domain.png" alt="网站" /> 个人网站：[www.pmhs.top](https://www.pmhs.top)
 
 <!-- SECTION:ABOUT_ME:END -->
 
 <!-- SECTION:TECH_STACK:START -->
-<h2 align="center">🛠️ 技术栈 · Tech Stack</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/source-code.png" alt="技术栈图标" />&nbsp; 技术栈 · Tech Stack</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -71,7 +77,7 @@
   徽章图片实时取自 img.shields.io（稳定），内容固定，属静态区块。
 -->
 
-<h4 align="center">💻 编程语言 · Programming Languages</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/code.png" alt="编程语言图标" />&nbsp; 编程语言 · Programming Languages</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
@@ -83,7 +89,7 @@
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
 </p>
 
-<h4 align="center">🎨 前端 · Frontend</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/web.png" alt="前端图标" />&nbsp; 前端 · Frontend</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -94,21 +100,21 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-<h4 align="center">📱 跨端 · Cross-Platform</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/multiple-devices.png" alt="跨端图标" />&nbsp; 跨端 · Cross-Platform</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri" />
 </p>
 
-<h4 align="center">⚙️ 后端 · Backend</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/server.png" alt="后端图标" />&nbsp; 后端 · Backend</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="dotNET" />
 </p>
 
-<h4 align="center">🗄️ 数据库 &amp; 中间件 · Databases &amp; Middleware</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/database.png" alt="数据库图标" />&nbsp; 数据库 &amp; 中间件 · Databases &amp; Middleware</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
@@ -119,7 +125,7 @@
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
 </p>
 
-<h4 align="center">☁️ 云原生 &amp; 运维 · Cloud Native &amp; DevOps</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/cloud.png" alt="云原生图标" />&nbsp; 云原生 &amp; 运维 · Cloud Native &amp; DevOps</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
@@ -128,7 +134,7 @@
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
 </p>
 
-<h4 align="center">🎮 游戏 &amp; 多媒体 · Game &amp; Media</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/controller.png" alt="游戏多媒体图标" />&nbsp; 游戏 &amp; 多媒体 · Game &amp; Media</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
   <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot" />
@@ -140,7 +146,7 @@
   <img src="https://img.shields.io/badge/NetEase_ModSDK-8B5CF6?style=for-the-badge" alt="NetEase ModSDK" />
 </p>
 
-<h4 align="center">🧰 工具 &amp; 平台 · Tools &amp; Platforms</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/maintenance.png" alt="工具平台图标" />&nbsp; 工具 &amp; 平台 · Tools &amp; Platforms</h4>
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -154,7 +160,7 @@
 <!-- SECTION:TECH_STACK:END -->
 
 <!-- SECTION:STATS:START -->
-<h2 align="center">📊 GitHub 数据 · GitHub Stats</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="数据统计图标" />&nbsp; GitHub 数据 · GitHub Stats</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -167,7 +173,7 @@
   streak-stats 参数名不同（background/ring/fire/currStreakLabel/sideLabels/dates/stroke 等），但色值取相同值。
 -->
 
-<h4 align="center">📈 通用统计 · Overall Stats</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/combo-chart.png" alt="通用统计图标" />&nbsp; 通用统计 · Overall Stats</h4>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api?username=pmh1314520&show_icons=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
@@ -175,7 +181,7 @@
   </picture>
 </div>
 
-<h4 align="center">🗣️ 常用语言 · Most Used Languages</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/chat.png" alt="常用语言图标" />&nbsp; 常用语言 · Most Used Languages</h4>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-master-pmh1314520s-projects.vercel.app/api/top-langs?username=pmh1314520&layout=compact&langs_count=8&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=22D3EE&border_color=30363D" />
@@ -183,7 +189,7 @@
   </picture>
 </div>
 
-<h4 align="center">🔥 连续贡献 · Contribution Streak</h4>
+<h4 align="center"><img height="20" src="https://img.icons8.com/fluency/48/light-on.png" alt="连续贡献图标" />&nbsp; 连续贡献 · Contribution Streak</h4>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=pmh1314520&background=0D1117&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&currStreakNum=C9D1D9&sideLabels=C9D1D9&sideNums=C9D1D9&dates=C9D1D9&stroke=30363D" />
@@ -194,7 +200,7 @@
 <!-- SECTION:STATS:END -->
 
 <!-- SECTION:PROJECTS:START -->
-<h2 align="center">🚀 代表项目 · Featured Projects</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/rocket.png" alt="项目图标" />&nbsp; 代表项目 · Featured Projects</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -223,6 +229,8 @@
       </a>
       <br />
       <sub>可视化拖拽式 RPA 自动化工具，558 模块 + AI 助手，零代码搞定网页 / 桌面 / 手机自动化，完全离线。</sub>
+      <br />
+      <a href="https://rpa.pmhs.top"><img height="13" src="https://img.icons8.com/fluency/48/domain.png" alt="官网" /> 官网 · Live</a>
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/pmh1314520/MCTier">
@@ -238,6 +246,8 @@
       </a>
       <br />
       <sub>虚拟局域网通用组网工具，基于 EasyTier + WebRTC，跨网络联机 / 语音 / 共享，支持 Windows 与 Android。</sub>
+      <br />
+      <a href="https://mctier.pmhs.top"><img height="13" src="https://img.icons8.com/fluency/48/domain.png" alt="官网" /> 官网 · Live</a>
     </td>
   </tr>
   <tr>
@@ -255,6 +265,8 @@
       </a>
       <br />
       <sub>Python + PyQt6 的 Windows 消息聚合应用，8 类消息源统一接收，高度可定制的桌面弹窗智能通知。</sub>
+      <br />
+      <a href="https://wmh.pmhs.top"><img height="13" src="https://img.icons8.com/fluency/48/domain.png" alt="官网" /> 官网 · Live</a>
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/pmh1314520/HypoMuxPlus">
@@ -270,6 +282,8 @@
       </a>
       <br />
       <sub>Windows 多网卡带宽聚合下载加速工具，Tauri + Rust 重构，让 Steam / IDM / 浏览器跑满每张网卡。</sub>
+      <br />
+      <a href="https://hmp.pmhs.top"><img height="13" src="https://img.icons8.com/fluency/48/domain.png" alt="官网" /> 官网 · Live</a>
     </td>
   </tr>
 </table>
@@ -277,7 +291,7 @@
 <!-- SECTION:PROJECTS:END -->
 
 <!-- SECTION:SOCIAL:START -->
-<h2 align="center">🌐 联系我 · Connect With Me</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/link.png" alt="联系图标" />&nbsp; 联系我 · Connect With Me</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -300,7 +314,7 @@
 <!-- SECTION:SOCIAL:END -->
 
 <!-- SECTION:SPONSOR:START -->
-<h2 align="center">☕ 赞赏支持 · Sponsor Me</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/coffee-to-go.png" alt="赞赏图标" />&nbsp; 赞赏支持 · Sponsor Me</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -309,7 +323,7 @@
   赞赏支持：给访客一个自愿赞赏渠道。二维码为本地图片（assets/ 目录，随仓库推送），非外链，稳定不受第三方服务影响。
   微信 sponsor-wechat.png / 支付宝 sponsor-alipay.jpg，用 <table> 两列并排、居中展示，各带说明文字。
 -->
-<p align="center">如果我的项目或分享曾对你有帮助，欢迎请我喝杯咖啡，你的支持是我持续创作与开源的动力 💜</p>
+<p align="center">如果我的项目或分享曾对你有帮助，欢迎请我喝杯咖啡，你的支持是我持续创作与开源的动力 <img height="16" src="https://img.icons8.com/fluency/48/like.png" alt="爱心" /></p>
 
 <p align="center">
   <a href="https://ifdian.net/a/qypmh">
@@ -337,7 +351,7 @@
 <!-- SECTION:SPONSOR:END -->
 
 <!-- SECTION:VISITOR_SNAKE:START -->
-<h2 align="center">🐍 访客与贡献 · Visitors &amp; Contributions</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/conference-call.png" alt="访客图标" />&nbsp; 访客与贡献 · Visitors &amp; Contributions</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -369,7 +383,7 @@
 <!-- SECTION:VISITOR_SNAKE:END -->
 
 <!-- SECTION:FOOTER:START -->
-<h2 align="center">💜 感谢访问 · Thanks for Visiting</h2>
+<h2 align="center"><img height="28" src="https://img.icons8.com/fluency/48/like.png" alt="感谢图标" />&nbsp; 感谢访问 · Thanks for Visiting</h2>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,50:22D3EE,100:F472B6&height=3" alt="紫罗兰到青到粉的渐变分隔条" width="100%" />
 </div>
@@ -378,9 +392,11 @@
   页脚收尾：与其它区块一致的居中标题 + 渐变分隔条已在上方给出。
   此处补充一句居中的感谢/收尾文字，呼应"青云"主题与开源精神，保持整体视觉一致性（需求 8.2）。
 -->
-<p align="center">感谢你抵达这里 · 愿代码与热爱同行 🚀</p>
+<p align="center">感谢你抵达这里 · 愿代码与热爱同行 <img height="18" src="https://img.icons8.com/fluency/48/rocket.png" alt="火箭" /></p>
 
-<p align="center"><sub>Designed with 💜 by 青云制作_彭明航 · Powered by GitHub Actions &amp; Open Source</sub></p>
+<p align="center"><sub>Designed with <img height="14" src="https://img.icons8.com/fluency/48/like.png" alt="爱心" /> by 青云制作_彭明航 · Powered by GitHub Actions &amp; Open Source</sub></p>
+
+<p align="center"><sub>图标由 <a href="https://icons8.com">Icons8</a> 提供 · Icons by Icons8</sub></p>
 
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,50:22D3EE,100:8B5CF6&height=150&section=footer" alt="底部粉青紫渐变波浪装饰" />
