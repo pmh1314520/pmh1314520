@@ -21,14 +21,16 @@
 <!-- SECTION:TYPING_BANNER:START -->
 <!--
   打字横幅：文档最顶部第一个可见区块（位于任何其他内容之前，无标题以确保居首）。
-  readme-typing-svg 动画 SVG，<div align="center"> 实现水平居中。
-  color=0891B2 加深青：单一 SVG 同时用于深/浅两种主题，无需 <picture>。
-  lines 以 ; 分隔，共 4 句（≥3）、每句 ≤50 字符，含昵称与简介。
-  【重要】中文与 emoji 必须做 URL 百分号编码，否则 GitHub 图片代理(camo)取不到图导致横幅空白。
+  顶部先放一条 capsule-render 渐变波浪装饰(waving)，再放 readme-typing-svg 打字动画，整体 <div align="center"> 居中。
+  横幅字体改用 Google Fonts 的 "Ma Shan Zheng"（马善政毛笔书法体，艺术字），color=0891B2 加深青在深/浅两主题对比均达标，无需 <picture>。
+  lines 以 ; 分隔，共 4 句（≥3）、每句 ≤50 字符，含昵称与简介，全中文以确保书法字体字形完整。
+  【重要】中文必须做 URL 百分号编码，否则 GitHub 图片代理(camo)取不到图导致横幅空白。
 -->
 <div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:22D3EE,100:F472B6&height=170&section=header" alt="顶部青紫粉渐变波浪装饰" />
+  <br />
   <img
-    src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3500&pause=800&center=true&vCenter=true&width=600&height=80&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA%20%F0%9F%91%8B;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;Python%20%2F%20TypeScript%20%2F%20Rust%20%2F%20Go%20Developer;Game%20Dev%20%C2%B7%20Full-Stack%20%C2%B7%20Automation"
+    src="https://readme-typing-svg.demolab.com/?font=Ma+Shan+Zheng&size=36&duration=3500&pause=800&center=true&vCenter=true&width=680&height=100&repeat=true&color=0891B2&lines=%E9%9D%92%E4%BA%91%E5%88%B6%E4%BD%9C_%E5%BD%AD%E6%98%8E%E8%88%AA;%E4%B8%80%E4%B8%AA%E7%97%B4%E8%BF%B7%E4%BA%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%AD%A6%E7%94%9F;%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%20%C2%B7%20%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%20%C2%B7%20%E8%87%AA%E5%8A%A8%E5%8C%96;%E4%BB%A3%E7%A0%81%E5%8D%B3%E7%83%AD%E7%88%B1%20%C2%B7%20%E5%88%9B%E9%80%A0%E5%8D%B3%E5%BF%AB%E4%B9%90"
     alt="青云制作_彭明航 - 一个痴迷于计算机技术的学生"
   />
 </div>
@@ -200,13 +202,18 @@
 <!--
   项目展示：<table> 两行两列（每行 2 列共 2 行）网格布局，各单元格 width=50% 宽度一致。
   恰好 4 个项目（WebRPA / MCTier / WinMsgHub / HypoMuxPlus），不多不少。
-  每个单元格：项目名（<a href> 指向仓库）+ 主要语言徽章 → shields.io 的 Star/Fork 徽章（稳定，替代已限流的 pin 卡）→ ≤100 字符一句话简介。
-  Star/Fork 徽章取自 img.shields.io/github/stars|forks（可靠），主题色：Stars 用紫罗兰 8B5CF6、Forks 用青 22D3EE、labelColor 深底 0D1117。
+  每个单元格结构：仓库真实软件图标(取自各仓库 README 顶部) → 项目名(<a href> 指向仓库) + 主要语言徽章
+  → shields.io 的 Star/Fork 徽章(稳定，替代已限流的 pin 卡) → ≤100 字符真实一句话简介(取自仓库 GitHub 描述)。
+  图标 raw 地址注意各仓库默认分支不同：WebRPA=main / MCTier=master / WinMsgHub=main / HypoMuxPlus=main。
   每张图片 alt 非空；单张失败仅降级为自身 alt，不影响其余。
 -->
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
+      <a href="https://github.com/pmh1314520/WebRPA">
+        <img src="https://raw.githubusercontent.com/pmh1314520/WebRPA/main/png/logo.png" width="72" alt="WebRPA 项目图标" />
+      </a>
+      <br />
       <a href="https://github.com/pmh1314520/WebRPA"><b>WebRPA</b></a>
       &nbsp;<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="主要语言 Python" />
       <br />
@@ -215,9 +222,13 @@
         <img src="https://img.shields.io/github/forks/pmh1314520/WebRPA?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="WebRPA Forks 数" />
       </a>
       <br />
-      <sub>基于 Python 的网页自动化 RPA 框架，让浏览器操作像编写脚本一样简单高效。</sub>
+      <sub>可视化拖拽式 RPA 自动化工具，558 模块 + AI 助手，零代码搞定网页 / 桌面 / 手机自动化，完全离线。</sub>
     </td>
     <td width="50%" valign="top" align="center">
+      <a href="https://github.com/pmh1314520/MCTier">
+        <img src="https://raw.githubusercontent.com/pmh1314520/MCTier/master/public/MCTierIcon.png" width="72" alt="MCTier 项目图标" />
+      </a>
+      <br />
       <a href="https://github.com/pmh1314520/MCTier"><b>MCTier</b></a>
       &nbsp;<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="主要语言 TypeScript" />
       <br />
@@ -226,11 +237,15 @@
         <img src="https://img.shields.io/github/forks/pmh1314520/MCTier?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="MCTier Forks 数" />
       </a>
       <br />
-      <sub>TypeScript 打造的 Minecraft 段位与数据管理系统，服务玩家与服务器运营。</sub>
+      <sub>虚拟局域网通用组网工具，基于 EasyTier + WebRTC，跨网络联机 / 语音 / 共享，支持 Windows 与 Android。</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
+      <a href="https://github.com/pmh1314520/WinMsgHub">
+        <img src="https://raw.githubusercontent.com/pmh1314520/WinMsgHub/main/resources/icons/WinMsgHub_ICON.png" width="72" alt="WinMsgHub 项目图标" />
+      </a>
+      <br />
       <a href="https://github.com/pmh1314520/WinMsgHub"><b>WinMsgHub</b></a>
       &nbsp;<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="主要语言 Python" />
       <br />
@@ -239,9 +254,13 @@
         <img src="https://img.shields.io/github/forks/pmh1314520/WinMsgHub?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="WinMsgHub Forks 数" />
       </a>
       <br />
-      <sub>Python 实现的 Windows 消息中枢，统一转发与处理系统级窗口消息。</sub>
+      <sub>Python + PyQt6 的 Windows 消息聚合应用，8 类消息源统一接收，高度可定制的桌面弹窗智能通知。</sub>
     </td>
     <td width="50%" valign="top" align="center">
+      <a href="https://github.com/pmh1314520/HypoMuxPlus">
+        <img src="https://raw.githubusercontent.com/pmh1314520/HypoMuxPlus/main/appicon.svg" width="72" alt="HypoMuxPlus 项目图标" />
+      </a>
+      <br />
       <a href="https://github.com/pmh1314520/HypoMuxPlus"><b>HypoMuxPlus</b></a>
       &nbsp;<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="主要语言 Rust" />
       <br />
@@ -250,7 +269,7 @@
         <img src="https://img.shields.io/github/forks/pmh1314520/HypoMuxPlus?style=for-the-badge&logo=github&label=Forks&color=22D3EE&labelColor=0D1117" alt="HypoMuxPlus Forks 数" />
       </a>
       <br />
-      <sub>Rust 编写的高性能多路复用工具，专注低延迟与稳定的连接管理。</sub>
+      <sub>Windows 多网卡带宽聚合下载加速工具，Tauri + Rust 重构，让 Steam / IDM / 浏览器跑满每张网卡。</sub>
     </td>
   </tr>
 </table>
@@ -291,6 +310,12 @@
   微信 sponsor-wechat.png / 支付宝 sponsor-alipay.jpg，用 <table> 两列并排、居中展示，各带说明文字。
 -->
 <p align="center">如果我的项目或分享曾对你有帮助，欢迎请我喝杯咖啡，你的支持是我持续创作与开源的动力 💜</p>
+
+<p align="center">
+  <a href="https://ifdian.net/a/qypmh">
+    <img src="https://img.shields.io/badge/爱发电-在爱发电支持我-946CE6?style=for-the-badge&logo=afdian&logoColor=white" alt="爱发电 - 在爱发电支持青云制作_彭明航" />
+  </a>
+</p>
 
 <div align="center">
 <table>
@@ -356,5 +381,9 @@
 <p align="center">感谢你抵达这里 · 愿代码与热爱同行 🚀</p>
 
 <p align="center"><sub>Designed with 💜 by 青云制作_彭明航 · Powered by GitHub Actions &amp; Open Source</sub></p>
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,50:22D3EE,100:8B5CF6&height=150&section=footer" alt="底部粉青紫渐变波浪装饰" />
+</div>
 
 <!-- SECTION:FOOTER:END -->
