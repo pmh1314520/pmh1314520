@@ -394,6 +394,17 @@
 </div>
 
 <!--
+  贡献活跃度折线图：github-readme-activity-graph，展示近一年提交趋势。
+  <picture> 深/浅双色（深底天蓝线 / 白底深天蓝线），主题色一致；custom_title 中英双语（URL 编码）。
+-->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=pmh1314520&bg_color=0D1117&title_color=38BDF8&color=C9D1D9&line=22D3EE&point=2DD4BF&area=true&area_color=38BDF8&hide_border=true&custom_title=%E8%B4%A1%E7%8C%AE%E6%B4%BB%E8%B7%83%E5%BA%A6%20Contribution%20Graph" />
+    <img alt="pmh1314520 的贡献活跃度折线图 · Contribution Activity Graph（近一年提交趋势）" src="https://github-readme-activity-graph.vercel.app/graph?username=pmh1314520&bg_color=FFFFFF&title_color=0284C7&color=1F2328&line=0891B2&point=2DD4BF&area=true&area_color=38BDF8&hide_border=true&custom_title=%E8%B4%A1%E7%8C%AE%E6%B4%BB%E8%B7%83%E5%BA%A6%20Contribution%20Graph" />
+  </picture>
+</div>
+
+<!--
   3D 立体贡献图：由每日刷新工作流经 yoshi389111/github-profile-3d-contrib 生成 profile-night-green.svg，
   复制为 output 分支的 profile-3d.svg，README 引用，每日自动更新；alt 非空，资产未就绪时降级为 alt。
 -->
