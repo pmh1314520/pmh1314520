@@ -452,6 +452,8 @@
 
 [![个人网站 www.pmhs.top](https://img.shields.io/badge/个人网站-www.pmhs.top-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.pmhs.top)
 [![Bilibili 主页 哔哩哔哩](https://img.shields.io/badge/Bilibili-哔哩哔哩-FB7299?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/1102546347)
+[![Gitee 主页 码云](https://img.shields.io/badge/Gitee-码云-C71D23?style=for-the-badge&logo=gitee&logoColor=white)](https://gitee.com/peng-minghang)
+[![爱发电 主页 Afdian](https://img.shields.io/badge/爱发电-Afdian-2DD4BF?style=for-the-badge&logo=afdian&logoColor=white)](https://ifdian.net/a/qypmh)
 
 </div>
 
