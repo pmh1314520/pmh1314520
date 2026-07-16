@@ -226,7 +226,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: dist/metrics.svg
+          filename: metrics.svg
           output_action: none
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
@@ -235,6 +235,12 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           config_display: large
+
+      - name: Copy metrics into dist
+        continue-on-error: true
+        run: |
+          mkdir -p dist
+          if [ -f metrics.svg ]; then cp -f metrics.svg dist/metrics.svg && echo "metrics.svg copied"; else echo "metrics.svg NOT FOUND"; ls -la; fi
 
       - name: Generate 3D contribution graph
         continue-on-error: true
