@@ -155,6 +155,60 @@ jobs:
           print("dashboard", stars, forks, followers, public)
           PY
 
+      - name: Generate recent activity svg
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          python3 - <<'PY'
+          import json, os, urllib.request, html
+          tok = os.environ.get("GH_TOKEN", "")
+          def api(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "profile-readme", "Authorization": "Bearer %s" % tok, "Accept": "application/vnd.github+json"})
+              return json.load(urllib.request.urlopen(req, timeout=30))
+          try:
+              events = api("https://api.github.com/users/pmh1314520/events/public?per_page=30")
+          except Exception:
+              events = []
+          VERB = {"PushEvent": ("推送代码到", "Pushed to"), "CreateEvent": ("创建了", "Created"), "PullRequestEvent": ("提交 PR 到", "PR in"), "IssuesEvent": ("提交 Issue 到", "Issue in"), "WatchEvent": ("Star 了", "Starred"), "ForkEvent": ("Fork 了", "Forked"), "ReleaseEvent": ("发布版本于", "Released in")}
+          picked = []
+          for e in events:
+              t = e.get("type")
+              repo = (e.get("repo") or {}).get("name", "")
+              if t in VERB and repo:
+                  picked.append((VERB[t][0], VERB[t][1], repo))
+              if len(picked) >= 5:
+                  break
+          if not picked:
+              picked = [("持续创作中", "Building things", "pmh1314520")]
+          rows = ""
+          y = 52
+          for cn, en, repo in picked:
+              repo_esc = html.escape(repo)
+              rows += '<circle cx="26" cy="%d" r="4" fill="url(#bar)"/>' % (y - 4)
+              rows += '<text x="42" y="%d" class="cn">%s <tspan class="repo">%s</tspan></text>' % (y, cn, repo_esc)
+              rows += '<text x="42" y="%d" class="en">%s %s</text>' % (y + 16, en, repo_esc)
+              y += 40
+          tmpl = '''<svg xmlns="http://www.w3.org/2000/svg" width="480" height="%(h)d" viewBox="0 0 480 %(h)d" role="img" aria-label="recent activity">
+            <style>
+              .c{fill:#FFFFFF;stroke:#D0D7DE}
+              .t{fill:#0284C7;font:700 15px 'Segoe UI','PingFang SC',sans-serif}
+              .cn{fill:#1F2328;font:600 13px 'Segoe UI','PingFang SC',sans-serif}
+              .repo{fill:#0284C7}
+              .en{fill:#6E7781;font:400 10px 'Segoe UI',sans-serif}
+              @media(prefers-color-scheme:dark){.c{fill:#0D1117;stroke:#30363D}.t{fill:#38BDF8}.cn{fill:#C9D1D9}.repo{fill:#38BDF8}.en{fill:#8B949E}}
+            </style>
+            <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient></defs>
+            <rect class="c" x="1" y="1" width="478" height="%(hh)d" rx="14" stroke-width="1.5"/>
+            <rect x="1" y="1" width="478" height="5" rx="2.5" fill="url(#bar)"/>
+            <text x="24" y="30" class="t">最近动态 · Recent Activity</text>
+            %(rows)s
+          </svg>''' % {"h": y + 6, "hh": y + 4, "rows": rows}
+          open("dist/activity.svg", "w", encoding="utf-8").write(tmpl)
+          print("activity rows", len(picked))
+          PY
+
       - name: Generate 3D contribution graph
         continue-on-error: true
         uses: yoshi389111/github-profile-3d-contrib@0.7.1

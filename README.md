@@ -336,6 +336,14 @@
 </div>
 
 <!--
+  最近动态：由每日刷新工作流经 GitHub Events API 抓取最近公开动态，生成中英双语主题自适应 SVG(activity.svg)，
+  推到 output 分支每日自动更新；API 失败或无动态时兜底一行，不破图。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/activity.svg" alt="最近动态 · Recent Activity（近期推送 / 创建 / PR / Star 等，每日自动更新）" />
+</div>
+
+<!--
   三张统计卡片，均用 <picture> + <source media="(prefers-color-scheme: dark)"> + 浅色 <img> 回退实现深/浅主题切换。
   三卡配色参数取值完全一致且等于全局主题声明色值（Property 9）：
     深色 bg=0D1117 title=38BDF8 text=C9D1D9 icon=22D3EE border=30363D
