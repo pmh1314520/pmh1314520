@@ -106,9 +106,14 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/国家奖学金-National_Scholarship-FBBF24?style=for-the-badge&logo=googlescholar&logoColor=white" alt="国家奖学金获得者 · National Scholarship Winner" />
-  <img src="https://img.shields.io/badge/独立游戏开发者-Indie_Game_Dev-38BDF8?style=for-the-badge&logo=itchdotio&logoColor=white" alt="独立游戏开发者 · Indie Game Developer" />
-  <img src="https://img.shields.io/badge/竹翼工作室·MC模组-Minecraft_NetEase_Mod-2DD4BF?style=for-the-badge&logo=minecraft&logoColor=white" alt="竹翼工作室 我的世界网易版模组开发者 · Minecraft (NetEase) Mod Developer @竹翼工作室" />
+  <img src="https://img.shields.io/badge/全栈开发者-Full--Stack_Developer-38BDF8?style=for-the-badge" alt="全栈开发者 · Full-Stack Developer" />
+  <img src="https://img.shields.io/badge/独立游戏开发者-Indie_Game_Dev-2DD4BF?style=for-the-badge&logo=itchdotio&logoColor=white" alt="独立游戏开发者 · Indie Game Developer" />
+  <img src="https://img.shields.io/badge/竹翼工作室·MC模组-Minecraft_NetEase_Mod-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" alt="竹翼工作室 我的世界网易版模组开发者 · Minecraft (NetEase) Mod Developer @竹翼工作室" />
+  <br />
   <img src="https://img.shields.io/badge/微信小程序-WeChat_Mini_Program-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信小程序开发者 · WeChat Mini Program Developer" />
+  <img src="https://img.shields.io/badge/Android应用-Android_App_Dev-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 应用开发者 · Android App Developer" />
+  <img src="https://img.shields.io/badge/Windows桌面应用-Windows_Desktop_Dev-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 桌面应用开发者 · Windows Desktop App Developer" />
+  <img src="https://img.shields.io/badge/办公自动化-Office_Automation-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white" alt="办公自动化开发者 · Office Automation Developer" />
   <br />
   <img src="https://img.shields.io/badge/数据可视化大屏-Data_Viz_Dashboards-22D3EE?style=for-the-badge&logo=apacheecharts&logoColor=white" alt="数据可视化大屏开发者 · Data Visualization Dashboards Developer" />
   <img src="https://img.shields.io/badge/4399小游戏开发者-4399_Game_Dev-38BDF8?style=for-the-badge&logo=gamejolt&logoColor=white" alt="4399 小游戏开发者 · 4399 Mini-Game Developer" />
