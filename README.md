@@ -36,6 +36,9 @@
   <br />
   <!-- 无限横向滚动跑马灯：手写 SMIL 动画 SVG，双拷贝无缝循环，边缘渐隐遮罩，本地资源稳定不破图 -->
   <img width="72%" src="assets/marquee.svg" alt="滚动横幅：学以致用才是王道 · Vibe Coding · Full-Stack · Game Dev · Automation · Open Source" />
+  <br />
+  <!-- 星空微光：手写 SMIL 动画 SVG，缓慢错峰闪烁 + 旋转四角星，天蓝主题，本地资源稳定 -->
+  <img width="86%" src="assets/stars.svg" alt="星空微光装饰 · twinkling starfield" />
 </div>
 <!-- SECTION:TYPING_BANNER:END -->
 
