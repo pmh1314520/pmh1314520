@@ -61,27 +61,22 @@
   <img height="18" src="https://img.icons8.com/fluency/48/marker.png" alt="所在地" /> 江苏省盐城市 Yancheng City, Jiangsu Province
 </p>
 
-<!--
-  自动年龄卡片：由每日刷新工作流(refresh-assets.yml)内联 Python 按生日 2006-10-26 计算年龄，
-  生成主题自适应 SVG(age.svg) 推送到 output 分支，README 引用 raw URL，每天自动更新，无需人工维护。
-  单张自适应 SVG(内置 prefers-color-scheme)，非 <picture>；alt 非空描述用途。
--->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/age.svg" alt="我的年龄 · 由工作流按生日每日自动计算更新" />
-</div>
-
-<!--
-  每日一言：由每日刷新工作流按天轮换一句编程 / 学习箴言，生成主题自适应 SVG(quote.svg) 推到 output 分支，每日自动更新。
--->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/quote.svg" alt="每日一言 · 编程与学习箴言（每日自动更新）" />
-</div>
-
 - <img height="18" src="https://img.icons8.com/fluency/48/idea.png" alt="专注" /> 专注于计算机技术的学习与实践，热爱钻研底层原理与工程实现
 - <img height="18" src="https://img.icons8.com/fluency/48/source-code.png" alt="开源" /> 持续维护多个开源项目，享受与社区一起打磨代码的过程
 - <img height="18" src="https://img.icons8.com/fluency/48/gears.png" alt="自动化" /> 热衷于自动化工具的研发，让重复繁琐的工作交给程序完成
 - <img height="18" src="https://img.icons8.com/fluency/48/artificial-intelligence.png" alt="AI" /> 资深 Vibe Coding 爱好者，享受与 AI 结对编程、把想法快速变成产品
 - <img height="18" src="https://img.icons8.com/fluency/48/domain.png" alt="网站" /> 个人网站：[www.pmhs.top](https://www.pmhs.top)
+
+<!--
+  自动年龄卡片 + 每日一言：均由每日刷新工作流生成主题自适应 SVG 推到 output 分支，每日自动更新；
+  作为「关于我」文字要点之后的一对动态卡片收尾，形成 文字 → 动态卡片 的自然流。
+  单张自适应 SVG(内置 prefers-color-scheme)，非 <picture>；alt 非空描述用途。
+-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/age.svg" alt="我的年龄 · 由工作流按生日每日自动计算更新" />
+  <br />
+  <img src="https://raw.githubusercontent.com/pmh1314520/pmh1314520/output/quote.svg" alt="每日一言 · 编程与学习箴言（每日自动更新）" />
+</div>
 
 <!-- SECTION:ABOUT_ME:END -->
 
@@ -102,11 +97,10 @@
   <img src="https://img.shields.io/badge/国家奖学金-National_Scholarship-FBBF24?style=for-the-badge&logo=googlescholar&logoColor=white" alt="国家奖学金获得者 · National Scholarship Winner" />
   <img src="https://img.shields.io/badge/独立游戏开发者-Indie_Game_Dev-38BDF8?style=for-the-badge&logo=itchdotio&logoColor=white" alt="独立游戏开发者 · Indie Game Developer" />
   <img src="https://img.shields.io/badge/竹翼工作室·MC模组-Minecraft_NetEase_Mod-2DD4BF?style=for-the-badge&logo=minecraft&logoColor=white" alt="竹翼工作室 我的世界网易版模组开发者 · Minecraft (NetEase) Mod Developer @竹翼工作室" />
-  <br />
   <img src="https://img.shields.io/badge/微信小程序-WeChat_Mini_Program-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="微信小程序开发者 · WeChat Mini Program Developer" />
+  <br />
   <img src="https://img.shields.io/badge/数据可视化大屏-Data_Viz_Dashboards-22D3EE?style=for-the-badge&logo=apacheecharts&logoColor=white" alt="数据可视化大屏开发者 · Data Visualization Dashboards Developer" />
   <img src="https://img.shields.io/badge/4399小游戏开发者-4399_Game_Dev-38BDF8?style=for-the-badge&logo=gamejolt&logoColor=white" alt="4399 小游戏开发者 · 4399 Mini-Game Developer" />
-  <br />
   <img src="https://img.shields.io/badge/腾讯音乐人-Tencent_Musician-0891B2?style=for-the-badge&logo=tencentqq&logoColor=white" alt="腾讯音乐人 · Tencent Musician" />
   <img src="https://img.shields.io/badge/网易云音乐人-NetEase_Cloud_Musician-C20C0C?style=for-the-badge&logo=neteasecloudmusic&logoColor=white" alt="网易云音乐人 · NetEase Cloud Musician" />
 </div>
