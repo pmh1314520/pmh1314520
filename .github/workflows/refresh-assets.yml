@@ -6,6 +6,8 @@ on:
   workflow_dispatch:             # 支持手动触发
   push:
     branches: [main]             # 便于首次/改动后立即生成
+    paths-ignore:                # metrics.svg 由本工作流自动提交，忽略以防触发死循环
+      - "metrics.svg"
 
 concurrency:
   group: refresh-assets
@@ -227,7 +229,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
-          output_action: none
+          output_action: commit
+          committer_message: "chore(metrics): daily update metrics.svg [skip ci]"
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
           plugin_isocalendar: yes
@@ -235,12 +238,6 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           config_display: large
-
-      - name: Copy metrics into dist
-        continue-on-error: true
-        run: |
-          mkdir -p dist
-          if [ -f metrics.svg ]; then cp -f metrics.svg dist/metrics.svg && echo "metrics.svg copied"; else echo "metrics.svg NOT FOUND"; ls -la; fi
 
       - name: Generate 3D contribution graph
         continue-on-error: true
