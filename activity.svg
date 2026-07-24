@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="258" viewBox="0 0 480 258" role="img" aria-label="recent activity">
+  <style>
+    .c{fill:#FFFFFF;stroke:#D0D7DE}
+    .t{fill:#0284C7;font:700 15px 'Segoe UI','PingFang SC',sans-serif}
+    .cn{fill:#1F2328;font:600 13px 'Segoe UI','PingFang SC',sans-serif}
+    .repo{fill:#0284C7}
+    .en{fill:#6E7781;font:400 10px 'Segoe UI',sans-serif}
+    @media(prefers-color-scheme:dark){.c{fill:#0D1117;stroke:#30363D}.t{fill:#38BDF8}.cn{fill:#C9D1D9}.repo{fill:#38BDF8}.en{fill:#8B949E}}
+  </style>
+  <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient></defs>
+  <rect class="c" x="1" y="1" width="478" height="256" rx="14" stroke-width="1.5"/>
+  <rect x="1" y="1" width="478" height="5" rx="2.5" fill="url(#bar)"/>
+  <text x="24" y="30" class="t">最近动态 · Recent Activity</text>
+  <circle cx="26" cy="48" r="4" fill="url(#bar)"/><text x="42" y="52" class="cn">提交 Issue 到 <tspan class="repo">pmh1314520/MCTier</tspan></text><text x="42" y="68" class="en">Issue in pmh1314520/MCTier</text><circle cx="26" cy="88" r="4" fill="url(#bar)"/><text x="42" y="92" class="cn">发布版本于 <tspan class="repo">pmh1314520/MCTier</tspan></text><text x="42" y="108" class="en">Released in pmh1314520/MCTier</text><circle cx="26" cy="128" r="4" fill="url(#bar)"/><text x="42" y="132" class="cn">推送代码到 <tspan class="repo">pmh1314520/MCTier</tspan></text><text x="42" y="148" class="en">Pushed to pmh1314520/MCTier</text><circle cx="26" cy="168" r="4" fill="url(#bar)"/><text x="42" y="172" class="cn">发布版本于 <tspan class="repo">pmh1314520/WebRPA</tspan></text><text x="42" y="188" class="en">Released in pmh1314520/WebRPA</text><circle cx="26" cy="208" r="4" fill="url(#bar)"/><text x="42" y="212" class="cn">推送代码到 <tspan class="repo">pmh1314520/WebRPA</tspan></text><text x="42" y="228" class="en">Pushed to pmh1314520/WebRPA</text>
+</svg>
