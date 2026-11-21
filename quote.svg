@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="72" viewBox="0 0 760 72" role="img" aria-label="quote">
+  <style>
+    .c { fill:#FFFFFF; stroke:#D0D7DE; }
+    .q { fill:#1F2328; font:600 18px 'Segoe UI','PingFang SC',sans-serif; }
+    .e { fill:#6E7781; font:italic 12px 'Segoe UI',sans-serif; }
+    @media (prefers-color-scheme: dark) { .c{fill:#0D1117;stroke:#30363D;} .q{fill:#C9D1D9;} .e{fill:#8B949E;} }
+  </style>
+  <defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <rect class="c" x="1" y="1" width="758" height="70" rx="12" stroke-width="1.5"/>
+  <rect x="1" y="1" width="6" height="70" rx="3" fill="url(#b)"/>
+  <text x="30" y="32" class="q">能用简单方案解决的，就别用复杂的</text>
+  <text x="30" y="54" class="e">Prefer the simplest solution that works.</text>
+</svg>
